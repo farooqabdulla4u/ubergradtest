@@ -23,6 +23,7 @@ Public Class SessionUtil
                     returnvalue = values(4)
             End Select
 			'Just to test changes on the github 
+			'Just to test changes on the github for second time
             Return returnvalue
         Catch ex As Exception
             Return ex.Message
