@@ -22,6 +22,7 @@ Public Class SessionUtil
                 Case "login_type"
                     returnvalue = values(4)
             End Select
+			'Just to test changes on the github 
             Return returnvalue
         Catch ex As Exception
             Return ex.Message
